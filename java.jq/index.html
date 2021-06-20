@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links-->
+    <!--jq ui css-->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <!--jq ui css end-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>java/jq</title>
+
+    
+  </head>
+  <body>
+  <!--interaction-->
+  <!--draggable start-->
+    <div class="container">
+      <div id="draggable" class="ui-widget-content">
+      <p>Drag me around</p>
+      </div>
+    </div>
+    <!--draggable end-->
+      <!--Droppablestart-->
+    <div class="container">
+      <div id="draggable" class="ui-widget-content">
+       <p>Drag me to my target</p>
+      </div>
+ 
+    <div id="droppable" class="ui-widget-header">
+    <p>Drop here</p>
+    </div>
+
+    </div>
+    <!--Droppableend-->
+    <!--Resizable start-->
+    <section class="three">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+          <div id="resizable" class="ui-widget-content">
+          <h3 class="ui-widget-header">Resizable</h3>
+          </div>
+
+      </div>
+    </div>
+    </section><br><br>
+    <!--Resizable end-->
+    <!--Selectable start-->
+    <section class="four">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+  <ol id="selectable">
+  <li class="ui-widget-content">Item 1</li>
+  <li class="ui-widget-content">Item 2</li>
+  <li class="ui-widget-content">Item 3</li>
+  <li class="ui-widget-content">Item 4</li>
+  <li class="ui-widget-content">Item 5</li>
+  <li class="ui-widget-content">Item 6</li>
+  <li class="ui-widget-content">Item 7</li>
+</ol>
+ 
+   </div>
+  </div>
+</section> <br><br>
+  <!--Selectable end-->
+  <!--Sortable start-->
+  <section class="five">
+  <div class="container">
+    <div class="row">
+  <div class="col-lg-12">
+  <ul id="sortable">
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+ </ul>
+   
+  </div>
+  </div>
+</section><br><br>
+<!--Sortable end-->
+<!--Accordion start-->
+    <section class="six">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12">
+         <div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div> 
+  </div>
+  </div>
+    </section><br><br>
+<!--Accordion end-->
+<!--Autocomplete start-->
+    <section class="seven p-5">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12">
+          <form>
+        <div class="ui-widget">
+       <label for="tags">course name:</label>
+        <input id="tags">
+        </div>
+       </form>
+        </div>
+        </div>
+    </section>
+<!--Autocomplete end-->
+<!--Button start-->
+    <section class="eight m-5 p-5">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12">
+          <div class="widget">
+  <h1>Widget Buttons</h1>
+  <button>A button element</button>
+ 
+  <input type="submit" value="A submit button">
+ 
+  <a href="#">An anchor</a>
+</div>
+<h1>CSS Buttons</h1>
+<button class="ui-button ui-widget ui-corner-all">A button element</button>
+ 
+<input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+ 
+<a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+ 
+  </div>
+  </div>
+</section>
+<!-- Button end-->
+<!--Checkboxradio start-->
+    <section class="nine m-5 p-5">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+      <div class="widget">
+  <h1>Checkbox and radio button widgets</h1>
+ 
+  <h2>Radio Group</h2>
+  <fieldset>
+    <legend>Select a Location: </legend>
+    <label for="radio-1">New York</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Paris</label>
+    <input type="radio" name="radio-1" id="radio-2">
+    <label for="radio-3">London</label>
+    <input type="radio" name="radio-1" id="radio-3">
+  </fieldset>
+ 
+  <h2>Checkbox</h2>
+  <fieldset>
+    <legend>Hotel Ratings: </legend>
+    <label for="checkbox-1">2 Star</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">3 Star</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">4 Star</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">5 Star</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+  </fieldset>
+ 
+  <h2>Checkbox nested in label</h2>
+  <fieldset>
+    <legend>Bed Type: </legend>
+    <label for="checkbox-nested-1">2 Double
+      <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+    </label>
+    <label for="checkbox-nested-2">2 Queen
+      <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+    </label>
+    <label for="checkbox-nested-3">1 Queen
+      <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+    </label>
+    <label for="checkbox-nested-4">1 King
+      <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+    </label>
+  </fieldset>
+</div>
+     
+    </div>
+    </div>
+  </section>
+<!--Checkboxradio end-->
+<!--Progressbar start-->
+<section class="ten m-5 p-5">
+ <div class="container">
+  <div class="row">
+  <div class="col-lg-12">
+      <div id="progressbar"></div>   
+  </div>
+  </div>
+</section>
+<!--Progressbar end-->
+<!--Add Class start-->
+<section class="eleven m-5 ">
+<div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+       <div class="toggler">
+  <div id="effect" class="ui-corner-all">
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+  </div>
+</div>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Run Effect</button>   
+    </div>
+    </div>
+</section>
+<!--Add Class end-->
+<!--Color Animation start-->
+<section class="twelve mb-5">
+<div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+      <div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button> 
+    </div>
+    </div>
+</section>
+<!--Color Animation end-->
+<!--Position start-->
+<section class="fourteen m-5 ">
+<div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+     <div id="parent">
+  <p>
+  This is the position parent element.
+  </p>
+</div>
+ 
+<div class="positionable" id="positionable1">
+  <p>
+  to position
+  </p>
+</div>
+ 
+<div class="positionable" id="positionable2">
+  <p>
+  to position 2
+  </p>
+</div>
+ 
+<div style="padding: 20px; margin-top: 75px;">
+  position...
+  <div style="padding-bottom: 20px;">
+    <b>my:</b>
+    <select id="my_horizontal">
+      <option value="left">left</option>
+      <option value="center">center</option>
+      <option value="right">right</option>
+    </select>
+    <select id="my_vertical">
+      <option value="top">top</option>
+      <option value="center">center</option>
+      <option value="bottom">bottom</option>
+    </select>
+  </div>
+  <div style="padding-bottom: 20px;">
+    <b>at:</b>
+    <select id="at_horizontal">
+      <option value="left">left</option>
+      <option value="center">center</option>
+      <option value="right">right</option>
+    </select>
+    <select id="at_vertical">
+      <option value="top">top</option>
+      <option value="center">center</option>
+      <option value="bottom">bottom</option>
+    </select>
+  </div>
+  <div style="padding-bottom: 20px;">
+    <b>collision:</b>
+    <select id="collision_horizontal">
+      <option value="flip">flip</option>
+      <option value="fit">fit</option>
+      <option value="flipfit">flipfit</option>
+      <option value="none">none</option>
+    </select>
+    <select id="collision_vertical">
+      <option value="flip">flip</option>
+      <option value="fit">fit</option>
+      <option value="flipfit">flipfit</option>
+      <option value="none">none</option>
+    </select>
+  </div>
+</div>     
+    </div>
+    </div>
+</section>
+<!--Position end-->
+
+
+
+
+    
+
+
+  
+
+ 
+
+
+
+
+ 
+    <!-- js links-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--jq ui js-->
+    <script src="js/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    <!--jq ui js end-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--fontawesomelinks--> 
+    <script>
+     // Example starter JavaScript for disabling form submissions if there are invalid fields
+     (function () {
+    'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+  
+</script>
+<!--fontawesomelinks-->
+</body>
+</html>
